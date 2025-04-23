@@ -19,7 +19,7 @@ export function LandingHero() {
       <div className="container relative z-10">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="mb-6 text-4xl font-bold text-secondary tracking-tight sm:text-5xl md:text-6xl">
-            Liquidate Your Entire Portfolio With One Click
+            Liquidate Your Entire Portfolio With One Click.
           </h1>
           <p className="mb-10 text-md text-muted">
             Convert all your tokens, including dust, into a single asset

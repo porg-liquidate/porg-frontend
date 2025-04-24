@@ -1,5 +1,4 @@
 import logo from "../../../public/images/lightlogo.png";
-import "@reown/appkit-wallet-button/react";
 
 export function DashboardHeader() {
   return (
@@ -18,7 +17,6 @@ export function DashboardHeader() {
         </div>
 
         <div className="flex items-center gap-4">
-          {/* <appkit-button /> */}
         </div>
       </div>
     </header>

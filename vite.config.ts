@@ -13,7 +13,6 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ["@civic/auth-web3"],
   },
   server: {
     headers: {

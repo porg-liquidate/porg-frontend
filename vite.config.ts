@@ -1,10 +1,11 @@
-import path from "path"
-import tailwindcss from "@tailwindcss/vite"
-import react from "@vitejs/plugin-react"
-import { defineConfig } from "vite"
+import path from "path";
+import tailwindcss from "@tailwindcss/vite";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/porg-frontend/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -12,6 +13,11 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ['@civic/auth-web3']
-  }
-})
+    include: ["@civic/auth-web3"],
+  },
+  server: {
+    headers: {
+      "Permissions-Policy": "",
+    },
+  },
+});

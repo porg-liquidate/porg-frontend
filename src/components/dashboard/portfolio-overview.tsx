@@ -87,7 +87,7 @@ export function PortfolioOverview() {
         {view === "dust" && filteredTokens.length === 0 && (
           <div className="flex flex-col items-center justify-center py-8 text-center">
             <InfoIcon className="mb-2 h-10 w-10 text-white/70-foreground" />
-            <p className="text-white/70-foreground">No dust tokens found in your wallet!</p>
+            <p className="text-white/70-foreground">No dust tokens found in your wallet</p>
           </div>
         )}
       </CardContent>
